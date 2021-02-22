@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Backend
+
+Step 0: After successfully built the frontend, copy the build folder in frontend to backend folder  
+Step 1: Go to the backend folder  
+Step 2: run 'npm init' and change entry point to 'Main.js'  
+Step 3: run 'npm install bcrypt --save'   
+Step 4: run 'npm install express --save'  
+Step 5: run 'npm install express-mysql-session --save'  
+Step 6: run 'npm install express-session --save'  
+Step 7: run 'npm install mysql --save'  
+Step 8: Find package.json file, and add '"start": "node Main"' under "test"...  
+Step 9: Download XAMPP and set up SQL database  
